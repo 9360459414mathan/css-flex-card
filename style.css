@@ -1,0 +1,40 @@
+.team{
+	margin-left:45px;
+	position:relative;
+}
+.team p{
+	font-size:20px;
+}
+.team::after{
+	position:absolute;
+	content:"";
+	width:100px;
+	border:1px solid orange;
+	top:12px;
+	left:55px;
+}
+.team h1{
+	font-size:35px;
+	line-height:10px;
+}
+.col-12{
+	width:100%;
+	display:flex;
+	flex-wrap:no-wrap;
+	margin-left:15	px;
+}
+.col-3{
+	width:20%;
+	margin-left:45px;
+    box-shadow:0 0 5px 5px #ccc;
+
+}
+.image img{
+	width:100%;
+}
+.content p{
+	color:#999;
+}
+.content h1{
+	font-family: 'Raleway', sans-serif;
+}
